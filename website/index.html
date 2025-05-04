@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>DevConf - Bootstrap 5 Template For Tech Conference or Events</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Bootstrap 5 Tech Conference Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+
+</head> 
+
+<body>    
+	<header id="header" class="header fixed-top">	    
+		<div class="branding">
+			<div class="container-fluid">
+				<nav class="main-nav navbar navbar-expand-lg">
+					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>    
+									
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+						<ul class="nav navbar-nav">
+							
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
+							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
+						</ul><!--//nav-->
+					</div><!--//navabr-collapse-->
+
+				</nav><!--//main-nav-->
+				
+			</div><!--//container-->
+		</div><!--//branding-->
+	</header><!--//header-->
+	
+	<div class="container-fluid px-4 py-5 my-5 text-center">
+        <div class="lc-block d-block mx-auto mb-4">
+			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </div>
+        <div class="lc-block">
+            <div editable="rich">
+
+                <h2 class="display-5 fw-bold">1st Workshop on Long Multi-Scene Video Foundations</h2>
+
+            </div>
+        </div>
+        <div class="lc-block col-lg-6 mx-auto mb-4">
+            <div editable="rich">
+
+                <p class="lead ">Generation, Understanding and Evaluation</p>
+				<p class="lead ">Workshop @ ICCV'25</p>
+
+            </div>
+        </div>
+    </div>
+
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<div class="single-col-max mx-auto mb-4 text-justify">This workshop aims to advance the state-of-the-art in long multi-scene video modelling, covering generation, understanding, evaluation, and ethical considerations. Long videos offer a powerful means of expression and communication, with applications in diverse fields such as entertainment, education, and health. However, current video generation and understanding techniques are typically confined to short, single-scene videos, limiting both our ability to create and comprehend complex video narratives. Thus, a growing need and research area is the development of methods for generating and understanding long-form videos of multiple dynamic scenes. This workshop will gather a diverse group of researchers and practitioners to share knowledge, discuss fundamental challenges, and explore solutions in this research area. We aim to foster collaboration and innovation towards the development of robust and ethical tools for creating and reasoning over long-form video content. We will also host a call for papers and an expert panel to engage in a discussion with the community on the key facets of long multi-scene video models, including scalable generation techniques, semantic understanding of complex narratives, and reliable evaluation metrics.
+				</div>
+			<div class="event-countdown text-center mb-3">		   
+				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
+				<div id="countdown-box" class="countdown-box"></div>
+			</div><!--//event-countdown-->
+		</div><!--//container-->
+	</section><!--//about-section-->
+
+	<section id="venue-section" class="venue-section section theme-bg-dark text-white">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5 text-white">Call for Papers</h3>
+	
+			<div class="desc">
+				<h4 class="text-white mb-3">Important Dates</h4>
+				<p><strong>Submission Portal Opens:</strong> 29th of April 2025</p>
+				<p><strong>Submission Deadline:</strong> 1st of June 2025 (AOE)</p>
+				<p><strong>Preliminary Author Notification Deadline:</strong> 27th of June 2025</p>
+				<p><strong>Camera-ready Deadline (Proceedings Track):</strong> 25th of July 2025 (AOE)</p>
+
+				<h4 class="text-white mt-5 mb-3">Submission Portal</h4>
+				<p>
+					All submissions will be handled electronically via the OpenReview platform:
+					<a class="text-white" href="https://openreview.net/group?id=thecvf.com/ICCV/2025/Workshop/" target="_blank">
+						https://openreview.net/group?id=thecvf.com/ICCV/2025/Workshop/
+					</a>
+				</p>
+				<p>
+					Please ensure all submitting authors have an OpenReview profile created as soon as possible.
+				</p>
+	
+				<h4 class="text-white mt-5 mb-3">Workshop Scope</h4>
+				<p>
+					We invite contributions that explore technical, methodological, and societal aspects of working with complex video data that spans extended temporal durations and diverse content. Topics of interest include, but are not limited to:
+				</p>
+				<ul>
+					<li>Multi-scene video generation, including text-to-video (T2V) approaches</li>
+					<li>Vision-language models designed for long-form video understanding and generation</li>
+					<li>Efficient training and inference strategies for large-scale video models</li>
+					<li>Techniques for editing long-form or multi-scene video content</li>
+					<li>Representation learning tailored to long videos</li>
+					<li>Ensuring long-term temporal consistency in generated or analyzed video sequences</li>
+					<li>Long-range reasoning and semantic understanding across scenes</li>
+					<li>Factuality and grounding in video generation and comprehension tasks</li>
+					<li>Development of evaluation metrics and benchmarks for long-form video</li>
+					<li>Analysis of ethical and societal implications of large-scale long video models</li>
+				</ul>
+	
+				<h4 class="text-white mt-5 mb-3">Submission Tracks</h4>
+				<p><strong>1. Proceedings Track</strong></p>
+				<p>
+					Papers must follow the ICCV format and be up to 8 pages, excluding references. Download the <a class="text-white" href="#">ICCV 2025 Author Kit</a> for formatting details.
+				</p>
+	
+				<p><strong>2. No Proceedings Track: Extended Abstracts or Published Work</strong></p>
+				<p>
+					This track accepts 4-page extended abstracts (excluding references) in ICCV format. It welcomes early-stage research, negative results, position papers, novel datasets, or already published work. Submissions to this track will not be included in the official proceedings.
+				</p>
+	
+				<h4 class="text-white mt-5 mb-3">Review Process</h4>
+				<p>
+					All submissions will undergo double-blind peer review through OpenReview.
+				</p>
+			</div>
+		</div>
+	</section><!--//venue-section-->
+	
+	<section id="speakers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Speakers</h3>
+			<div class="row justify-content-center">
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/sayak.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Sayak Paul</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Machine Learning Engineer</div>
+								<div class="meta">Hugging Face</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/ishan.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Ishan Misra</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Research Scientist</div>
+								<div class="meta">Meta</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/chunyuan.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Chunyuan Li</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Researcher</div>
+								<div class="meta">xAI</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/jiajun.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Jiajun Wu</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Assistant Professor</div>
+								<div class="meta">Standford Univeristy</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/katerina.png" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Katerina Fragkiadaki </h5>
+							<div class="card-text mb-3">
+								<div class="meta">Associate Professor</div>
+								<div class="meta">Carnegie Mellon University</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//container-->
+		
+	</section><!--//speakers-section-->
+	
+	<div class="container">
+		<hr>
+	</div>
+	
+	<!--<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			
+			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+				<li class="nav-item me-2">
+					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
+						<span class="heading">Day 1</span>
+						<span class="meta">(Wed 12, Oct)</span>
+					</a>
+				</li>
+				<li class="nav-item me-2">
+					<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
+						<span class="heading">Day 2</span>
+						<span class="meta">(Thu 13, Oct)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
+						<span class="heading">Day 3</span>
+						<span class="meta">(Fri 14, Oct)</span>
+					</a>
+				</li>
+			</ul>
+			
+			<div class="schedule-tab-content tab-content">
+				<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
+					<h4 class="text-center py-5 text-muted">Day 1 Agenda Coming Soon...</h4>
+				</div>				
+				<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
+					<h4 class="text-center py-5 text-muted">Day 2 Agenda Coming Soon...</h4>
+				</div>
+				<div class="tab-pane no-timeline" id="tab-3-content" role="tabpanel" aria-labelledby="tab-3">
+					<h4 class="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
+				</div>
+			</div>
+		</div>
+	</section>-->
+
+	<section id="speakers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Organizers</h3>
+			<div class="row justify-content-center">
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/ramos.jpeg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Vasco Ramos</h5>
+							<div class="card-text mb-3">
+								<div class="meta">PhD Candidate</div>
+								<div class="meta">NOVA Univeristy of Lisbon</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/cohen.jpeg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Regev Cohen</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Research Scientist</div>
+								<div class="meta">Google</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/bansal.jpeg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Hritik Bansal</h5>
+							<div class="card-text mb-3">
+								<div class="meta">PhD Candidate</div>
+								<div class="meta">University of California</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/doveh.jpeg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Sivan Doveh</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Student Researcher</div>
+								<div class="meta">Google</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/mirza.png" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Jehanzeb Mirza</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Postdoctoral</div>
+								<div class="meta">Massachusetts Institute of Technology</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/chefer.jpeg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Hila Chefer</h5>
+							<div class="card-text mb-3">
+								<div class="meta">PhD Candidate</div>
+								<div class="meta">Tel Aviv University</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/mosseri.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Inbar Mosseri</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Staff Research Scientist</div>
+								<div class="meta">Google DeepMind</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-2 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/magalhaes.jpg" class="card-img-top rounded-0" alt="" style="height: 220px; object-fit: cover"></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Joao Magalhaes</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Full Professor</div>
+								<div class="meta">NOVA University of Lisbon</div>
+							</div><!--//card-text-->
+						</div><!--//card-->
+						
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//container-->
+		
+	</section><!--//speakers-section-->
+	
+	<!--<section id="sponsors-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
+			<div class="row logos justify-content-center">
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-1.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-2.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-3.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-4.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-5.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-6.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-7.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-8.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-9.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-10.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-11.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-12.svg" alt=""></div>
+			</div>
+		</div>
+	</section>
+-->
+	<footer class="footer py-5 theme-bg-primary">
+		<div class="container text-center">
+			
+			<ul class="social-list list-inline mb-4"> 
+				<li class="list-inline-item me-3"><a href="#"><i class="fas fa-envelope"></i></a></li>
+			</ul><!--//social-list-->
+			
+			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			<small class="copyright">Based on <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> template</small>
+			
+		</div><!--//container-->	    
+	</footer>
+	
+	<!-- Javascript -->          
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="assets/plugins/smoothscroll.min.js"></script>
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+	<script src="assets/js/main.js"></script>  
+
+</body>
+</html> 
+
